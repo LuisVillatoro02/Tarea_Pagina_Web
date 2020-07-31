@@ -1,0 +1,154 @@
+#Principal{
+	width: 900px;
+	height: auto; overflow: hidden;
+	border: 0px solid #000;
+	margin: auto;
+	}
+
+header{
+	width: 900px;
+	height: 100px;
+	border: 0px solid #000;
+}
+#Logo{
+	width: 200px;
+	height: 100px;
+	border: 0px solid #000;
+	float: left;
+}
+.titulo{
+	margin-top: 25px;
+	font-size: 25px;
+	border: 0px solid #000;
+}
+.sub{
+	font-size: 14px;
+	margin-top: -20px;
+}
+.Menu{
+	width: 350px;
+	height: 45px;
+	border: 1px solid #000;
+	float: right;
+	margin-top: 45px;
+	background: #C2DFFF;
+	color: #fff;
+}
+.Menu ul li a:hover{
+	background: #006699;
+	color: #fff;
+	transition: background 1s, color 1s;
+
+}
+.Menu ul li: hover{
+	background: #fff;
+	color: #006699;
+	transition: background 1s, color 1s;
+}
+
+.Menu ul li{
+	list-style: none;
+	float: left;
+}
+
+.Menu ul li a{
+	text-decoration: none;
+	padding: 15px 20px;
+	border: 0px solid #ccc;
+}
+
+#Slide{
+	margin-top: -5px;
+	width: 900;
+	height: 250;
+}
+#Categorias{
+	width: 900;
+	height: auto; overflow: hidden;
+	border: 0px solid #00ffff;
+	margin-top: 15px;
+}
+
+.Uno{
+	width: 280px;
+	height: auto; overflow: hidden;
+	border: 1px solid #000;
+	float: left;
+	padding: 5px;
+	text-align: center;
+	color: #000;
+	background: #C2DFFF;
+}
+.parrafo{
+	color: #000;
+	text-align: justify;
+}
+.dos{
+	margin-left: 10px;
+	margin-right: 10px;
+}	
+
+.leer{
+	text-decoration: none;
+	border: 1px solid #000;
+	padding: 10px 20px 10px 20px;
+	margin: 10px;
+}
+
+.leer:hover{
+  background: #006699;
+  color: #fff;
+  transition: background 1s, color 1s;
+}
+
+#info{
+	width: 900px;
+	height: auto;overflow: hidden;
+	border: 0px solid #006699
+	margin-top 10px;
+}
+
+#Izq{
+	width: 585px;
+	height: auto; overflow: hidden;
+	border: 0px solid #000;
+	float: left;
+	padding: 5px;
+	background: #fff;
+}
+
+#Der{
+	width: 290px;
+	height: auto; overflow: hidden;
+	border: 0px solid #000;
+	float: right;
+	padding: 5px;
+	text-align: left;
+	color: #2B65EC;
+	background: #fff;
+
+}
+.img{
+	text-align: center;
+}
+
+footer{
+	width: 900px;
+	height: 100px;
+	text-align: center;
+}
+#footer p{
+	width: 500px;
+}
+#datos{
+	background: #fff;
+}
+#opinion{
+	background: #fff;
+	padding: 15;
+}
+fieldset{
+	background: #add8e6;
+	padding: 5px;
+	margin-top: 5px;
+}
